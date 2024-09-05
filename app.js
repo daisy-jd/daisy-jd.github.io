@@ -1,14 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    https://images.app.goo.gl/88pGJPATaSqQEsZG8
 
-    const images = document.querySelectorAll("img");
+new Date("Sep 17th 2025 00:00:00").getTime()
 
-    for(const image of images){
-        fetch("https://dog.ceo/api/breeds/image/random")
-        .then(response => response.json())
-        .then(data => {
-            image.src = data.message
-            image.width = 100;
-            image.height= 100;
-         })
-    }
-})

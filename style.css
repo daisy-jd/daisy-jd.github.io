@@ -1,6 +1,6 @@
 body{
-    background-color: hotpink;
-    font-family: Arial, Helvetica, sans-serif;
+    background: color #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:0px;
     font-size: 1.5vw;
 }
@@ -9,10 +9,17 @@ body{
 #logo {
     margin:0px;
     padding:0px;
-    font-family: "Fredoka One", sans-serif;
+    font-family: "Jaro", sans-serif;
+    font-size: 5vh;
+    font-weight: 400;
+    font-style: normal;
     width: 20%;
     border-radius: 30%;
-
+    margin-left: 1vh;
+    text-shadow:
+    0 0 10px #f5f5f5, /* Glow effect */
+    0 0 20px #f5f5f5, /* Outer glow */
+    0 0 30px #f5f5f5; /* Larger glow */
 }
 
 h1{
@@ -24,12 +31,14 @@ ul{
 }
 
 body > header{
-    background-color: chartreuse;
-    color: #fa77ed;
+    background-color: #48cfcb;
+    color: #229799;
     display: flex;
-    height: 8vh;
+    height: 10vh;
     align-items: center;
     justify-content: space-around;
+    font-size: 1.5vh;
+
 }
 
 
@@ -41,16 +50,28 @@ body > header > nav > ul {
 }
 
 body > header > nav > ul > li {
-    padding: 8px;
+    padding: 6px;
     margin: 16px;
 }
 
 .navbutton{
-    color: white;
+    color: #f5f5f5;
+    color: #f5f5f5;
     text-decoration: none;
     padding: 12px;
-    border: 1px solid white;
-    border-radius: 10%;
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: space-between /*Equal Space Between*/
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+ 
+    
 }
 
 body > main article {
@@ -81,7 +102,7 @@ h2{
 }
 
 body > footer{
-    background-color: chartreuse;
+    background-color: #229799;
     display: flex;
 }
 
@@ -103,3 +124,67 @@ img{
     color: white;
     text-decoration: none;
 }
+
+.opennow{
+
+    text-shadow:
+
+    0 0 10px #39FF14; /* Glow effect */
+    0 0 20px #39FF14; /* Outer glow */
+    0 0 30px #39FF14; /* Larger glow */
+
+}
+
+
+.countdown-HSBC {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #48cfcb; /* Tomato color */
+    font-size: 5vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 2vh;
+ 
+
+  }
+
+  .countdown-HSBC-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vh;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+
+  .countdown-MS {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #48cfcb; /* Tomato color */
+    font-size: 5vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 2vh;
+ 
+
+  }
+
+  .countdown-MS-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vh;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+
